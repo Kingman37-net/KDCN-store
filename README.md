@@ -32,6 +32,8 @@ The internal system will provide authorized administrators with controlled manag
 
 ## Architecture
 
+```text
+
 Customer
    ↓
 KDCN Store
@@ -55,7 +57,10 @@ HTML / CSS / JavaScript
 M-Pesa Daraja API
 Git / GitHub
 
+
 ---
+
+
 ## Security
 Security is treated as a core system requirement rather than an optional feature.
 Planned controls include:
