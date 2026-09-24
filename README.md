@@ -33,7 +33,10 @@ The internal system will provide authorized administrators with controlled manag
 ## Architecture
 
 ```text
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35f7c2d (chore: initialize KDCN Commerce foundation)
 Customer
    ↓
 KDCN Store
@@ -48,6 +51,10 @@ Orders / Customers / Payments
    ↓
 M-Pesa Integration
 
+<<<<<<< HEAD
+=======
+```text
+>>>>>>> 35f7c2d (chore: initialize KDCN Commerce foundation)
 Technology
 TypeScript
 Cloudflare Workers
@@ -57,10 +64,13 @@ HTML / CSS / JavaScript
 M-Pesa Daraja API
 Git / GitHub
 
+<<<<<<< HEAD
 
 ---
 
 
+=======
+>>>>>>> 35f7c2d (chore: initialize KDCN Commerce foundation)
 ## Security
 Security is treated as a core system requirement rather than an optional feature.
 Planned controls include:
@@ -111,6 +121,10 @@ KINGMAN DIGITAL ECOSYSTEM
 └── KDCN Automation
 
 KDCN Store is the commerce and transaction layer of the wider 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 35f7c2d (chore: initialize KDCN Commerce foundation)
 **KINGMAN DIGITAL ecosystem.**
 Backup & Recovery
 **Development follows a backup-first approach.**
@@ -127,4 +141,9 @@ KINGMAN DIGITAL
 Global IT & Cybersecurity Services
 **System:** KDCN Commerce
 **Phase:** 2
+<<<<<<< HEAD
 **Status:** Development
+=======
+**Status:** Development.
+
+>>>>>>> 35f7c2d (chore: initialize KDCN Commerce foundation)
