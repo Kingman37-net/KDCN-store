@@ -1,0 +1,8 @@
+# robots.txt for KDCN Store
+# https://shop.kingmandigital.co.ke/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://shop.kingmandigital.co.ke/sitemap.xml
