@@ -1,0 +1,174 @@
+KDCN STORE ASSET CONVERSION REPORT
+Generated: 2026-09-30 22:29:05.438486
+Base: /data/data/com.termux/files/home/KDCN-STORE-PIC
+
+─────────────────────────────────────────────
+SVC-001 | Business Startup
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-001-business-startup.png
+  ✅ Source: source/dm-quote/SVC-001-business-startup.png
+  🌐 Web: SVC-001-business-startup.webp + SVC-001-business-startup.avif
+  🌐 Web: SVC-001-business-startup.webp + SVC-001-business-startup.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-002 | Business Email
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-002-business-email.png
+  ✅ Source: source/dm-quote/SVC-002-business-email.png
+  🌐 Web: SVC-002-business-email.webp + SVC-002-business-email.avif
+  🌐 Web: SVC-002-business-email.webp + SVC-002-business-email.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-003 | Business Presence
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-003-business-presence.png
+  ✅ Source: source/dm-quote/SVC-003-business-presence.png
+  🌐 Web: SVC-003-business-presence.webp + SVC-003-business-presence.avif
+  🌐 Web: SVC-003-business-presence.webp + SVC-003-business-presence.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-004 | Cross-Platform Bundle
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-004-cross-platform-bundle.png
+  ✅ Source: source/dm-quote/SVC-004-cross-platform-bundle.png
+  🌐 Web: SVC-004-cross-platform-bundle.webp + SVC-004-cross-platform-bundle.avif
+  🌐 Web: SVC-004-cross-platform-bundle.webp + SVC-004-cross-platform-bundle.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-005 | CV & Cover Letter
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-005-cv-cover-letter.png
+  ✅ Source: source/dm-quote/SVC-005-cv-cover-letter.png
+  🌐 Web: SVC-005-cv-cover-letter.webp + SVC-005-cv-cover-letter.avif
+  🌐 Web: SVC-005-cv-cover-letter.webp + SVC-005-cv-cover-letter.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-006 | Google Business Profile
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-006-google-business-profile.png
+  ✅ Source: source/dm-quote/SVC-006-google-business-profile.png
+  🌐 Web: SVC-006-google-business-profile.webp + SVC-006-google-business-profile.avif
+  🌐 Web: SVC-006-google-business-profile.webp + SVC-006-google-business-profile.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-007 | Logo & Branding
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-007-logo-branding.jpg
+  ✅ Source: source/dm-quote/SVC-007-logo-branding.png
+  🌐 Web: SVC-007-logo-branding.webp + SVC-007-logo-branding.avif
+  🌐 Web: SVC-007-logo-branding.webp + SVC-007-logo-branding.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-008 | Online Services
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-008-online-services.png
+  ✅ Source: source/dm-quote/SVC-008-online-services.png
+  🌐 Web: SVC-008-online-services.webp + SVC-008-online-services.avif
+  🌐 Web: SVC-008-online-services.webp + SVC-008-online-services.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-009 | Poster & Flyer Design
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-009-poster-flyer.jpg
+  ✅ Source: source/dm-quote/SVC-009-poster-flyer.png
+  🌐 Web: SVC-009-poster-flyer.webp + SVC-009-poster-flyer.avif
+  🌐 Web: SVC-009-poster-flyer.webp + SVC-009-poster-flyer.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-010 | Premium Brand & Tech
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-010-premium-brand-tech.png
+  ✅ Source: source/dm-quote/SVC-010-premium-brand-tech.png
+  🌐 Web: SVC-010-premium-brand-tech.webp + SVC-010-premium-brand-tech.avif
+  🌐 Web: SVC-010-premium-brand-tech.webp + SVC-010-premium-brand-tech.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-011 | Professional Career
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-011-professional-career.png
+  ✅ Source: source/dm-quote/SVC-011-professional-career.png
+  🌐 Web: SVC-011-professional-career.webp + SVC-011-professional-career.avif
+  🌐 Web: SVC-011-professional-career.webp + SVC-011-professional-career.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-012 | Social Media Management
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-012-social-media-management.jpg
+  ✅ Source: source/dm-quote/SVC-012-social-media-management.png
+  🌐 Web: SVC-012-social-media-management.webp + SVC-012-social-media-management.avif
+  🌐 Web: SVC-012-social-media-management.webp + SVC-012-social-media-management.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-013 | Starter Digital Access
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-013-starter-digital-access.png
+  ✅ Source: source/dm-quote/SVC-013-starter-digital-access.png
+  🌐 Web: SVC-013-starter-digital-access.webp + SVC-013-starter-digital-access.avif
+  🌐 Web: SVC-013-starter-digital-access.webp + SVC-013-starter-digital-access.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-014 | Strategy Consultation
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-014-strategy-consultation.png
+  ✅ Source: source/dm-quote/SVC-014-strategy-consultation.png
+  🌐 Web: SVC-014-strategy-consultation.webp + SVC-014-strategy-consultation.avif
+  🌐 Web: SVC-014-strategy-consultation.webp + SVC-014-strategy-consultation.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-015 | Website Design
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-015-website-design.jpg
+  ✅ Source: source/dm-quote/SVC-015-website-design.png
+  🌐 Web: SVC-015-website-design.webp + SVC-015-website-design.avif
+  🌐 Web: SVC-015-website-design.webp + SVC-015-website-design.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+─────────────────────────────────────────────
+SVC-016 | Website Promo
+─────────────────────────────────────────────
+  ✅ Source: source/fixed-price/SVC-016-website-promo.png
+  ✅ Source: source/dm-quote/SVC-016-website-promo.png
+  🌐 Web: SVC-016-website-promo.webp + SVC-016-website-promo.avif
+  🌐 Web: SVC-016-website-promo.webp + SVC-016-website-promo.avif
+  📱 Social: 3 variants
+  📱 Social: 3 variants
+
+============================================================
+ BUILD COMPLETE
+============================================================
+  Base:              /data/data/com.termux/files/home/KDCN-STORE-PIC
+  Source files:      /data/data/com.termux/files/home/KDCN-STORE-PIC/source/fixed-price + /data/data/com.termux/files/home/KDCN-STORE-PIC/source/dm-quote
+  Web files:         /data/data/com.termux/files/home/KDCN-STORE-PIC/web/fixed-price + /data/data/com.termux/files/home/KDCN-STORE-PIC/web/dm-quote
+  Social files:      /data/data/com.termux/files/home/KDCN-STORE-PIC/social/fixed-price + /data/data/com.termux/files/home/KDCN-STORE-PIC/social/dm-quote
+  Catalog CSV:       /data/data/com.termux/files/home/KDCN-STORE-PIC/service-catalog.csv
+  Report:            /data/data/com.termux/files/home/KDCN-STORE-PIC/conversion-report.txt
+
