@@ -56,13 +56,13 @@
   // =========================================================
   // HELPERS
   // =========================================================
-  function parseKES(str) {
-    const nums = str.match(/\d[\d,]*/g) || [];
-    return nums.map(n => parseInt(n.replace(/,/g, "")))[0] || 0;
-  }
-
   function kesToUsd(kes) {
     return Math.round(kes / USD_RATE);
+  }
+
+  function updateServiceCount() {
+    const el = document.getElementById("stat-count");
+    if (el) el.textContent = KDCN_SERVICES.length;
   }
 
   // =========================================================
@@ -73,7 +73,7 @@
     if (!grid) return;
 
     grid.innerHTML = KDCN_TIERS.map(tier => `
-      <a href="#${tier.id}" class="tier-card reveal" style="--tier-color: ${tier.color}">
+      <a href="#services" class="tier-card reveal" data-tier="${tier.id}" style="--tier-color: ${tier.color}">
         <div class="tier-icon">${tier.icon}</div>
         <h3>${tier.name}</h3>
         <p>${tier.description}</p>
@@ -81,6 +81,20 @@
         <span class="tier-ideal">Ideal for: ${tier.idealFor}</span>
       </a>
     `).join("");
+  }
+
+  // =========================================================
+  // TIER JUMP — any element with data-tier triggers the
+  // matching filter chip, then the anchor scrolls to #services
+  // =========================================================
+  function initTierJump() {
+    document.querySelectorAll(".tier-card, a[data-tier]").forEach(el => {
+      el.addEventListener("click", () => {
+        const tier = el.dataset.tier;
+        const chip = document.querySelector(`.chip[data-tier="${tier}"]`);
+        if (chip) chip.click();
+      });
+    });
   }
 
   // =========================================================
@@ -169,7 +183,9 @@
   function init() {
     initTheme();
     initNav();
+    updateServiceCount();
     renderTiers();
+    initTierJump();
     renderServices("all");
     initFilters();
     initReveal();
