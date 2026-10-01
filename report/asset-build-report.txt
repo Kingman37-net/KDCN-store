@@ -1,4 +1,24 @@
 KDCN ASSET BUILD REPORT
-Generated: 2026-10-01 22:16:12.219974
+Generated: 2026-10-01 22:28:22.041427
 
 ── SVC-001 | online-cyber-services
+── SVC-002 | poster-flyer-design
+── SVC-003 | business-email-setup
+── SVC-004 | cv-cover-letter
+── SVC-005 | google-business-profile
+── SVC-006 | starter-digital-access
+── SVC-007 | digital-strategy-consultation
+── SVC-008 | professional-career
+── SVC-009 | logo-branding
+── SVC-010 | business-startup
+── SVC-011 | social-media-management
+── SVC-012 | website-design
+── SVC-013 | cross-platform-growth
+── SVC-014 | website-launch
+── SVC-015 | business-digital-presence
+── SVC-016 | premium-brand-tech
+
+============================================================
+ BUILD COMPLETE
+============================================================
+  Manifest: /data/data/com.termux/files/home/kingman-site/KDCN-store/assets/services/asset-manifest.csv
