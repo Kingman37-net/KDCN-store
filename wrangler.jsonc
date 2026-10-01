@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kdcn-store",
+  "main": "backend/index.ts",
+  "compatibility_date": "2025-10-01",
+  "observability": { "enabled": true }
+}
