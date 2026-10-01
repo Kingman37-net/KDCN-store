@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>KDCN Admin — Control Plane</title>
+  <link rel="icon" href="../docs/assets/branding/kdcn-logo-500.webp" type="image/webp">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+  <div class="admin-shell">
+
+    <aside class="sidebar" aria-label="Admin navigation">
+      <div class="sidebar-brand">
+        <img src="../docs/assets/branding/kdcn-web-logo-500.webp" alt="" width="32" height="32">
+        <div class="brand-copy">
+          <strong>KDCN Admin</strong>
+          <span>Control Plane</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#dashboard"   class="nav-item" data-page="dashboard">📊 <span>Dashboard</span></a>
+        <a href="#services"    class="nav-item" data-page="services">🧩 <span>Services</span></a>
+        <a href="#customers"   class="nav-item" data-page="customers">👤 <span>Customers</span></a>
+        <a href="#orders"      class="nav-item" data-page="orders">📦 <span>Orders</span></a>
+        <a href="#quotes"      class="nav-item" data-page="quotes">📝 <span>Quotes</span></a>
+        <a href="#payments"    class="nav-item" data-page="payments">💳 <span>Payments</span></a>
+        <a href="#fulfillment" class="nav-item" data-page="fulfillment">🚚 <span>Fulfillment</span></a>
+        <a href="#audit"       class="nav-item" data-page="audit">🛡️ <span>Audit</span></a>
+        <a href="#settings"    class="nav-item" data-page="settings">⚙️ <span>Settings</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span class="env-badge" id="env-badge">ENV: LOCAL</span>
+        <span class="build-badge" id="build-badge">phase-a</span>
+      </div>
+    </aside>
+
+    <div class="main-column">
+
+      <header class="topbar">
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle navigation">☰</button>
+        <h1 class="page-title" id="page-title">Dashboard</h1>
+        <div class="topbar-actions">
+          <span class="session-state" id="session-state" aria-live="polite">Not authenticated</span>
+          <button class="btn btn-ghost" id="logout-btn" type="button" disabled>Sign out</button>
+        </div>
+      </header>
+
+      <main class="content" id="content">
+
+        <section class="panel" data-panel="dashboard">
+          <h2>Dashboard</h2>
+          <p class="panel-note">Operational overview will appear here once the backend exposes metrics endpoints.</p>
+        </section>
+
+        <section class="panel" data-panel="services" hidden>
+          <h2>Services</h2>
+          <p class="panel-note">Catalog management — awaiting backend catalog API.</p>
+        </section>
+
+        <section class="panel" data-panel="customers" hidden>
+          <h2>Customers</h2>
+          <p class="panel-note">Customer inspection — awaiting backend customer API.</p>
+        </section>
+
+        <section class="panel" data-panel="orders" hidden>
+          <h2>Orders</h2>
+          <p class="panel-note">Order lifecycle — awaiting backend order API.</p>
+        </section>
+
+        <section class="panel" data-panel="quotes" hidden>
+          <h2>Quotes</h2>
+          <p class="panel-note">Quote workflow — awaiting backend quote API.</p>
+        </section>
+
+        <section class="panel" data-panel="payments" hidden>
+          <h2>Payments</h2>
+          <p class="panel-note">Payment reconciliation — awaiting backend payment API.</p>
+        </section>
+
+        <section class="panel" data-panel="fulfillment" hidden>
+          <h2>Fulfillment</h2>
+          <p class="panel-note">Service delivery tracking — awaiting backend fulfillment API.</p>
+        </section>
+
+        <section class="panel" data-panel="audit" hidden>
+          <h2>Audit</h2>
+          <p class="panel-note">Append-only audit feed — awaiting backend audit API.</p>
+        </section>
+
+        <section class="panel" data-panel="settings" hidden>
+          <h2>Settings</h2>
+          <p class="panel-note">Non-secret operational configuration — awaiting backend settings API.</p>
+        </section>
+
+      </main>
+
+      <footer class="admin-footer">
+        <span>KDCN Admin · Phase A shell</span>
+        <span>Secrets never live in this application.</span>
+      </footer>
+
+    </div>
+  </div>
+
+  <noscript>
+    <div class="noscript-warning">JavaScript is required for the admin control plane.</div>
+  </noscript>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

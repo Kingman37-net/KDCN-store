@@ -1,27 +1,42 @@
-# KDCN Store Administration
+# KDCN Store — Admin Control Plane
 
-This directory contains administrative resources for KDCN Store.
+**Owner:** KINGMAN DIGITAL
+**Status:** Phase A — shell only
 
 ## Purpose
 
-The `admin/` directory defines and organizes resources used to operate,
-manage, configure, and administer the KDCN Store system.
+Internal operator interface for the KDCN Commerce system.
+Admin is NOT the backend, NOT the database, and NOT the public storefront.
 
-## Boundaries
+## Boundary rule
 
-- Application/server logic belongs in `backend/`.
-- Database schemas and database resources belong in `database/`.
-- Public and application assets belong in `assets/`.
-- Project documentation belongs in `docs/`.
-- Generated reports belong in `report/`.
-- Automation and build tooling belong in `scripts/`.
-- Tests belong in `tests/`.
+    Admin UI  →  backend API  →  authorization  →  business rule  →  database
 
-## Security
+The admin browser NEVER talks to the database directly.
+The admin browser NEVER decides authorization.
+The admin browser NEVER confirms payments.
 
-Do not store secrets, credentials, API keys, private tokens, passwords,
-or production environment secrets in this directory or anywhere else
-in the Git repository.
+## Phase status
 
-Administrative configuration must use the appropriate environment or
-secret-management mechanism where sensitive values are involved.
+- [x] Folder reserved
+- [x] README
+- [x] Application shell (index.html + css + js)
+- [ ] Auth wiring          (blocked on backend auth endpoints)
+- [ ] Dashboard page       (blocked on backend metrics endpoints)
+- [ ] Services page        (blocked on catalog API)
+- [ ] Customers page       (blocked on customer API)
+- [ ] Orders page          (blocked on order API)
+- [ ] Quotes page          (blocked on quote API)
+- [ ] Payments page        (blocked on payment API)
+- [ ] Fulfillment page     (blocked on fulfillment API)
+- [ ] Audit page           (blocked on audit API)
+- [ ] Settings page        (blocked on settings API)
+
+## Forbidden in this directory
+
+- M-Pesa / payment credentials
+- API tokens, signing keys, JWT secrets
+- Server-side business logic
+- Direct database access code
+- Customer PII written to disk
+- "admin because the button is hidden" authorization
