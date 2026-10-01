@@ -1,6 +1,8 @@
 /* =========================================================
-   KDCN SERVICE CATALOGUE — Master Data
-   Tiers: Essential | Professional | Business | Advanced
+   KDCN SERVICE CATALOGUE — AUTO-GENERATED
+   Source of truth: assets/services/catalog.csv
+   Regenerate:      python scripts/generate-services-js.py
+   DO NOT EDIT BY HAND.
    ========================================================= */
 
 const KDCN_TIERS = [
@@ -21,7 +23,7 @@ const KDCN_TIERS = [
     tagline: "Build a stronger professional presence",
     description: "For clients who want to establish a stronger professional presence, improve their career position, or build a reliable digital foundation.",
     idealFor: "Professionals, entrepreneurs, startups and SMEs",
-    priceRange: "KES 1,500 – 7,299",
+    priceRange: "KES 1,500 - 7,299",
     color: "#fbbf24"
   },
   {
@@ -31,7 +33,7 @@ const KDCN_TIERS = [
     tagline: "Integrated digital services for growing organizations",
     description: "For businesses and organizations that require integrated digital services, stronger online visibility, or ongoing management and support.",
     idealFor: "Growing businesses, brands, organizations and established service providers",
-    priceRange: "KES 12,000 – 17,499",
+    priceRange: "KES 12,000 - 17,499",
     color: "#00d1ff"
   },
   {
@@ -41,15 +43,12 @@ const KDCN_TIERS = [
     tagline: "Comprehensive development and technology",
     description: "For clients requiring comprehensive website development, branding, technology implementation and customized digital solutions.",
     idealFor: "Established businesses, organizations, NGOs, corporates and larger digital projects",
-    priceRange: "KES 19,999 – 40,000",
+    priceRange: "KES 19,999 - 40,000",
     color: "#a855f7"
-  }
+  },
 ];
 
 const KDCN_SERVICES = [
-  /* =========================================================
-     🟢 ESSENTIAL DIGITAL SERVICES
-     ========================================================= */
   {
     id: "online-cyber-services",
     code: "KDCNPACKAGE001",
@@ -58,6 +57,7 @@ const KDCN_SERVICES = [
     tagline: "Fast access to essential online, government and digital services.",
     fee: "From KES 250",
     feeMin: 250,
+    pricingType: "FROM",
     idealFor: "Individuals, students and job seekers",
     objective: "Fast and convenient access to essential online, government and digital services.",
     includes: [
@@ -89,7 +89,7 @@ const KDCN_SERVICES = [
       "Online computer training",
       "Job search and application assistance"
     ],
-    image: "assets/services/online-cyber-services.png",
+    image: "assets/services/online-cyber-services.webp",
     whatsapp: "Hi KDCN, I'm interested in Online Cyber & Digital Services (from KES 250). Please share details."
   },
   {
@@ -100,6 +100,7 @@ const KDCN_SERVICES = [
     tagline: "Professional visual materials that attract attention.",
     fee: "From KES 500",
     feeMin: 500,
+    pricingType: "FROM",
     idealFor: "Event organizers, businesses, individuals and organizations",
     objective: "Create professional visual materials designed to communicate clearly and attract attention.",
     includes: [
@@ -107,9 +108,9 @@ const KDCN_SERVICES = [
       "A4 and social-media formats",
       "Up to 2 revision rounds",
       "Print-ready PDF/PNG files",
-      "Standard turnaround: 24–48 hours"
+      "Standard turnaround: 24-48 hours"
     ],
-    image: "assets/services/poster-flyer-design.jpg",
+    image: "assets/services/poster-flyer-design.webp",
     whatsapp: "Hi KDCN, I'd like a Poster & Flyer Design quote (from KES 500). Here's my project: "
   },
   {
@@ -120,6 +121,7 @@ const KDCN_SERVICES = [
     tagline: "Look professional with branded email.",
     fee: "KES 1,000",
     feeMin: 1000,
+    pricingType: "FIXED",
     idealFor: "Businesses with an existing domain name",
     objective: "Establish a professional business email system using your own domain.",
     includes: [
@@ -129,13 +131,9 @@ const KDCN_SERVICES = [
       "Basic email delivery configuration",
       "Up to 1 year of setup support"
     ],
-    image: "assets/services/business-email-setup.png",
+    image: "assets/services/business-email-setup.webp",
     whatsapp: "Hi KDCN, I need Business Email Setup (KES 1,000). My domain is: "
   },
-
-  /* =========================================================
-     🟡 PROFESSIONAL DIGITAL SERVICES
-     ========================================================= */
   {
     id: "cv-cover-letter",
     code: "KDCNPACKAGE004",
@@ -144,6 +142,7 @@ const KDCN_SERVICES = [
     tagline: "Present your qualifications professionally.",
     fee: "From KES 1,500",
     feeMin: 1500,
+    pricingType: "FROM",
     idealFor: "Job seekers, graduates and professionals",
     objective: "Present your qualifications in a professional, structured and application-ready format.",
     includes: [
@@ -154,7 +153,7 @@ const KDCN_SERVICES = [
       "Editable Word document",
       "Final PDF version"
     ],
-    image: "assets/services/cv-cover-letter.png",
+    image: "assets/services/cv-cover-letter.webp",
     whatsapp: "Hi KDCN, I want the CV & Cover Letter Package (from KES 1,500). My target role is: "
   },
   {
@@ -165,6 +164,7 @@ const KDCN_SERVICES = [
     tagline: "Get found on Google Search and Google Maps.",
     fee: "KES 1,500",
     feeMin: 1500,
+    pricingType: "FIXED",
     idealFor: "Local businesses, shops and service providers",
     objective: "Improve your visibility across Google Search and Google Maps.",
     includes: [
@@ -175,7 +175,7 @@ const KDCN_SERVICES = [
       "Local visibility guidance",
       "Verification assistance (subject to Google's requirements)"
     ],
-    image: "assets/services/google-my-business.png",
+    image: "assets/services/google-business-profile.webp",
     whatsapp: "Hi KDCN, I need Google Business Profile Setup (KES 1,500). My business: "
   },
   {
@@ -186,6 +186,7 @@ const KDCN_SERVICES = [
     tagline: "Essential digital, government and document services.",
     fee: "KES 1,500",
     feeMin: 1500,
+    pricingType: "FIXED",
     idealFor: "Individuals, students and job seekers",
     objective: "Provide convenient access to essential digital, government and document services.",
     includes: [
@@ -196,7 +197,7 @@ const KDCN_SERVICES = [
       "Job application support",
       "General online assistance"
     ],
-    image: "assets/services/starter-digital-access.png",
+    image: "assets/services/starter-digital-access.webp",
     whatsapp: "Hi KDCN, I'm interested in the Starter Digital Access Package (KES 1,500)."
   },
   {
@@ -207,6 +208,7 @@ const KDCN_SERVICES = [
     tagline: "Identify your digital position and plan growth.",
     fee: "KES 1,500 per session",
     feeMin: 1500,
+    pricingType: "FIXED",
     idealFor: "Entrepreneurs and business owners",
     objective: "Identify your current digital position and establish a practical roadmap for growth.",
     includes: [
@@ -217,7 +219,7 @@ const KDCN_SERVICES = [
       "Practical action plan",
       "Follow-up summary in PDF format"
     ],
-    image: "assets/services/digital-strategy-consultation.png",
+    image: "assets/services/digital-strategy-consultation.webp",
     whatsapp: "Hi KDCN, I'd like a Digital Strategy Consultation (KES 1,500). My business: "
   },
   {
@@ -228,6 +230,7 @@ const KDCN_SERVICES = [
     tagline: "Complete career support from preparation to submission.",
     fee: "KES 3,000",
     feeMin: 3000,
+    pricingType: "FIXED",
     idealFor: "Job seekers and professionals",
     objective: "Provide practical career and digital application support from preparation through submission.",
     includes: [
@@ -238,7 +241,7 @@ const KDCN_SERVICES = [
       "Academic, KUCCPS and HELB support",
       "Document conversion and formatting"
     ],
-    image: "assets/services/professional-career.png",
+    image: "assets/services/professional-career.webp",
     whatsapp: "Hi KDCN, I want the Professional Career Package (KES 3,000)."
   },
   {
@@ -249,6 +252,7 @@ const KDCN_SERVICES = [
     tagline: "Establish a consistent visual identity.",
     fee: "From KES 3,000",
     feeMin: 3000,
+    pricingType: "FROM",
     idealFor: "Startups, SMEs and businesses undergoing rebranding",
     objective: "Establish a consistent and recognizable visual identity.",
     includes: [
@@ -258,7 +262,7 @@ const KDCN_SERVICES = [
       "Brand colour palette recommendation",
       "Basic visual branding direction"
     ],
-    image: "assets/services/logo-branding.jpg",
+    image: "assets/services/logo-branding.webp",
     whatsapp: "Hi KDCN, I need the Logo & Branding Package (from KES 3,000). My business: "
   },
   {
@@ -269,6 +273,7 @@ const KDCN_SERVICES = [
     tagline: "Launch your business with a professional foundation.",
     fee: "KES 5,000",
     feeMin: 5000,
+    pricingType: "FIXED",
     idealFor: "Startups, SMEs and entrepreneurs",
     objective: "Support the initial business setup and establish a professional foundation.",
     includes: [
@@ -278,7 +283,7 @@ const KDCN_SERVICES = [
       "KRA PIN assistance",
       "Basic branding guidance"
     ],
-    image: "assets/services/business-startup.png",
+    image: "assets/services/business-startup.webp",
     whatsapp: "Hi KDCN, I want the Business Startup Package (KES 5,000)."
   },
   {
@@ -289,6 +294,7 @@ const KDCN_SERVICES = [
     tagline: "Build a consistent social media presence.",
     fee: "From KES 5,000/month",
     feeMin: 5000,
+    pricingType: "FROM",
     idealFor: "Businesses, brands and public-facing professionals",
     objective: "Build a consistent social media presence through structured content and account management.",
     includes: [
@@ -299,13 +305,9 @@ const KDCN_SERVICES = [
       "Monthly performance reporting",
       "Platform support for Facebook, Instagram, TikTok and LinkedIn"
     ],
-    image: "assets/services/social-media-management.jpg",
+    image: "assets/services/social-media-management.webp",
     whatsapp: "Hi KDCN, I'm interested in Social Media Management (from KES 5,000/month)."
   },
-
-  /* =========================================================
-     🔵 BUSINESS & GROWTH SOLUTIONS
-     ========================================================= */
   {
     id: "website-design",
     code: "KDCNPACKAGE012",
@@ -314,6 +316,7 @@ const KDCN_SERVICES = [
     tagline: "Professional, responsive and accessible online presence.",
     fee: "From KES 15,000",
     feeMin: 15000,
+    pricingType: "FROM",
     idealFor: "Small businesses, startups and organizations",
     objective: "Establish a professional, responsive and accessible online presence.",
     includes: [
@@ -325,7 +328,7 @@ const KDCN_SERVICES = [
       "Contact form",
       "Social media integration"
     ],
-    image: "assets/services/website-design.jpg",
+    image: "assets/services/website-design.webp",
     whatsapp: "Hi KDCN, I need the Website Design Package (from KES 15,000)."
   },
   {
@@ -336,6 +339,7 @@ const KDCN_SERVICES = [
     tagline: "Coordinated presence across multiple social platforms.",
     fee: "KES 12,000",
     feeMin: 12000,
+    pricingType: "FIXED",
     idealFor: "Businesses, brands and creators",
     objective: "Establish a coordinated presence across multiple social platforms.",
     includes: [
@@ -351,13 +355,9 @@ const KDCN_SERVICES = [
       "Growth monitoring",
       "Monthly performance reporting"
     ],
-    image: "assets/services/cross-platform-growth.png",
+    image: "assets/services/cross-platform-growth.webp",
     whatsapp: "Hi KDCN, I want the Cross-Platform Growth Bundle (KES 12,000)."
   },
-
-  /* =========================================================
-     🟣 ADVANCED DIGITAL SOLUTIONS
-     ========================================================= */
   {
     id: "website-launch",
     code: "KDCNPACKAGE014",
@@ -366,7 +366,7 @@ const KDCN_SERVICES = [
     tagline: "Launch a professional website with essential infrastructure.",
     fee: "KES 19,999",
     feeMin: 19999,
-    badge: "LIMITED OFFER",
+    pricingType: "FIXED",
     idealFor: "Small businesses, startups and personal brands",
     objective: "Launch a professional website with the essential infrastructure required for online operations.",
     includes: [
@@ -379,8 +379,9 @@ const KDCN_SERVICES = [
       "Speed optimization",
       "Social media integration"
     ],
-    image: "assets/services/website-promo.png",
-    whatsapp: "Hi KDCN, I'm interested in the Website Launch Offer (KES 19,999)."
+    image: "assets/services/website-launch.webp",
+    whatsapp: "Hi KDCN, I'm interested in the Website Launch Offer (KES 19,999).",
+    badge: "LIMITED OFFER"
   },
   {
     id: "business-digital-presence",
@@ -390,6 +391,7 @@ const KDCN_SERVICES = [
     tagline: "Unified and professional digital identity.",
     fee: "KES 20,000",
     feeMin: 20000,
+    pricingType: "FIXED",
     idealFor: "Growing businesses",
     objective: "Establish a unified and professional digital identity across key business channels.",
     includes: [
@@ -400,7 +402,7 @@ const KDCN_SERVICES = [
       "Basic digital branding",
       "Core online presence configuration"
     ],
-    image: "assets/services/business-digital-presence.png",
+    image: "assets/services/business-digital-presence.webp",
     whatsapp: "Hi KDCN, I want the Business Digital Presence Package (KES 20,000)."
   },
   {
@@ -411,6 +413,7 @@ const KDCN_SERVICES = [
     tagline: "Comprehensive digital identity with professional infrastructure.",
     fee: "KES 35,000",
     feeMin: 35000,
+    pricingType: "FIXED",
     idealFor: "Established businesses, NGOs, organizations and brands",
     objective: "Build a comprehensive digital identity supported by professional technology infrastructure.",
     includes: [
@@ -421,29 +424,16 @@ const KDCN_SERVICES = [
       "Initial technical support",
       "Up to 30 days of post-delivery support"
     ],
-    image: "assets/services/premium-brand-tech.png",
+    image: "assets/services/premium-brand-tech.webp",
     whatsapp: "Hi KDCN, I'm interested in the Premium Brand & Technology Package (KES 35,000)."
-  }
+  },
 ];
 
-/* =========================================================
-   HELPERS
-   ========================================================= */
-function getServiceById(id) {
-  return KDCN_SERVICES.find(s => s.id === id);
-}
-
-function getServicesByTier(tier) {
-  return KDCN_SERVICES.filter(s => s.tier === tier);
-}
-
-function getAllServices() {
-  return KDCN_SERVICES;
-}
-
-function getTierById(id) {
-  return KDCN_TIERS.find(t => t.id === id);
-}
+/* -------- helpers -------- */
+function getServiceById(id) { return KDCN_SERVICES.find(s => s.id === id); }
+function getServicesByTier(tier) { return KDCN_SERVICES.filter(s => s.tier === tier); }
+function getAllServices() { return KDCN_SERVICES; }
+function getTierById(id) { return KDCN_TIERS.find(t => t.id === id); }
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { KDCN_SERVICES, KDCN_TIERS, getServiceById, getServicesByTier, getAllServices, getTierById };
