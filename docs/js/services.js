@@ -89,7 +89,7 @@ const KDCN_SERVICES = [
       "Online computer training",
       "Job search and application assistance"
     ],
-    image: "assets/services/online-cyber-services.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-001/web/display.webp",
     whatsapp: "Hi KDCN, I'm interested in Online Cyber & Digital Services (from KES 250). Please share details."
   },
   {
@@ -110,7 +110,7 @@ const KDCN_SERVICES = [
       "Print-ready PDF/PNG files",
       "Standard turnaround: 24-48 hours"
     ],
-    image: "assets/services/poster-flyer-design.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-002/web/display.webp",
     whatsapp: "Hi KDCN, I'd like a Poster & Flyer Design quote (from KES 500). Here's my project: "
   },
   {
@@ -131,7 +131,7 @@ const KDCN_SERVICES = [
       "Basic email delivery configuration",
       "Up to 1 year of setup support"
     ],
-    image: "assets/services/business-email-setup.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-003/web/display.webp",
     whatsapp: "Hi KDCN, I need Business Email Setup (KES 1,000). My domain is: "
   },
   {
@@ -153,7 +153,7 @@ const KDCN_SERVICES = [
       "Editable Word document",
       "Final PDF version"
     ],
-    image: "assets/services/cv-cover-letter.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-004/web/display.webp",
     whatsapp: "Hi KDCN, I want the CV & Cover Letter Package (from KES 1,500). My target role is: "
   },
   {
@@ -175,7 +175,7 @@ const KDCN_SERVICES = [
       "Local visibility guidance",
       "Verification assistance (subject to Google's requirements)"
     ],
-    image: "assets/services/google-business-profile.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-005/web/display.webp",
     whatsapp: "Hi KDCN, I need Google Business Profile Setup (KES 1,500). My business: "
   },
   {
@@ -197,7 +197,7 @@ const KDCN_SERVICES = [
       "Job application support",
       "General online assistance"
     ],
-    image: "assets/services/starter-digital-access.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-006/web/display.webp",
     whatsapp: "Hi KDCN, I'm interested in the Starter Digital Access Package (KES 1,500)."
   },
   {
@@ -219,7 +219,7 @@ const KDCN_SERVICES = [
       "Practical action plan",
       "Follow-up summary in PDF format"
     ],
-    image: "assets/services/digital-strategy-consultation.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-007/web/display.webp",
     whatsapp: "Hi KDCN, I'd like a Digital Strategy Consultation (KES 1,500). My business: "
   },
   {
@@ -241,7 +241,7 @@ const KDCN_SERVICES = [
       "Academic, KUCCPS and HELB support",
       "Document conversion and formatting"
     ],
-    image: "assets/services/professional-career.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-008/web/display.webp",
     whatsapp: "Hi KDCN, I want the Professional Career Package (KES 3,000)."
   },
   {
@@ -262,7 +262,7 @@ const KDCN_SERVICES = [
       "Brand colour palette recommendation",
       "Basic visual branding direction"
     ],
-    image: "assets/services/logo-branding.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-009/web/display.webp",
     whatsapp: "Hi KDCN, I need the Logo & Branding Package (from KES 3,000). My business: "
   },
   {
@@ -283,7 +283,7 @@ const KDCN_SERVICES = [
       "KRA PIN assistance",
       "Basic branding guidance"
     ],
-    image: "assets/services/business-startup.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-010/web/display.webp",
     whatsapp: "Hi KDCN, I want the Business Startup Package (KES 5,000)."
   },
   {
@@ -305,7 +305,7 @@ const KDCN_SERVICES = [
       "Monthly performance reporting",
       "Platform support for Facebook, Instagram, TikTok and LinkedIn"
     ],
-    image: "assets/services/social-media-management.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-011/web/display.webp",
     whatsapp: "Hi KDCN, I'm interested in Social Media Management (from KES 5,000/month)."
   },
   {
@@ -328,7 +328,7 @@ const KDCN_SERVICES = [
       "Contact form",
       "Social media integration"
     ],
-    image: "assets/services/website-design.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-012/web/display.webp",
     whatsapp: "Hi KDCN, I need the Website Design Package (from KES 15,000)."
   },
   {
@@ -355,7 +355,7 @@ const KDCN_SERVICES = [
       "Growth monitoring",
       "Monthly performance reporting"
     ],
-    image: "assets/services/cross-platform-growth.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-013/web/display.webp",
     whatsapp: "Hi KDCN, I want the Cross-Platform Growth Bundle (KES 12,000)."
   },
   {
@@ -379,7 +379,7 @@ const KDCN_SERVICES = [
       "Speed optimization",
       "Social media integration"
     ],
-    image: "assets/services/website-launch.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-014/web/display.webp",
     whatsapp: "Hi KDCN, I'm interested in the Website Launch Offer (KES 19,999).",
     badge: "LIMITED OFFER"
   },
@@ -402,7 +402,7 @@ const KDCN_SERVICES = [
       "Basic digital branding",
       "Core online presence configuration"
     ],
-    image: "assets/services/business-digital-presence.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-015/web/display.webp",
     whatsapp: "Hi KDCN, I want the Business Digital Presence Package (KES 20,000)."
   },
   {
@@ -424,7 +424,7 @@ const KDCN_SERVICES = [
       "Initial technical support",
       "Up to 30 days of post-delivery support"
     ],
-    image: "assets/services/premium-brand-tech.webp",
+    image: "https://media.kingmandigital.co.ke/store/services/SVC-016/web/display.webp",
     whatsapp: "Hi KDCN, I'm interested in the Premium Brand & Technology Package (KES 35,000)."
   },
 ];
